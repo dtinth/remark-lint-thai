@@ -1,0 +1,22 @@
+{
+  "name": "remark-lint-thai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "unified-lint-rule": "1.0.4",
+    "unist-util-to-string-with-nodes": "0.1.0",
+    "unist-util-visit": "2.0.0",
+    "vfile-reporter": "6.0.0",
+    "remark": "11.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
