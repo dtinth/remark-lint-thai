@@ -5,7 +5,8 @@
   "main": "./lib/remark-lint-thai.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "test": "jest --verbose"
   },
   "dependencies": {
     "unified-lint-rule": "1.0.4",
