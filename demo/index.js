@@ -29,5 +29,4 @@ async function update() {
 }
 
 update()
-
-require('./self-test')
+import('./self-test').then(() => {})
