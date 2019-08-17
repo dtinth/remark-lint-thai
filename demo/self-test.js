@@ -30,7 +30,7 @@ async function startTest() {
       el.className = 'text-danger'
       failed++
     } else {
-      el.className = 'text-success'
+      el.className = 'text-success d-inline-block mr-2'
       passing++
     }
     testInfo.textContent = `${passing} passing, ${failed} failed`
