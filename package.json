@@ -18,6 +18,7 @@
     "vfile-location": "^2.0.5"
   },
   "devDependencies": {
+    "expect": "^24.9.0",
     "jest": "^24.9.0",
     "parcel-bundler": "^1.6.1",
     "remark": "11.0.1",

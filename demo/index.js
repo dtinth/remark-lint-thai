@@ -4,9 +4,8 @@ var remark = require('remark')
 var report = require('vfile-reporter')
 
 document.querySelector('#app').innerHTML = `
-<p>ใส่ข้อความภาษาไทยที่นี่</p>
-<textarea id="textarea"></textarea>
-<pre id="report"></pre>
+<p><textarea class="form-control" id="textarea" placeholder="ใส่ข้อความภาษาไทยที่นี่"></textarea></p>
+<pre id="report" class="mb-0"></pre>
 `
 
 const textarea = document.querySelector('#textarea')
@@ -30,3 +29,5 @@ async function update() {
 }
 
 update()
+
+require('./self-test')
