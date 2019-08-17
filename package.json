@@ -24,5 +24,8 @@
     "remark-cli": "^7.0.0",
     "vfile-reporter": "6.0.0"
   },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
   "keywords": []
 }
