@@ -1,7 +1,7 @@
 {
   "name": "remark-lint-thai",
   "version": "1.0.0",
-  "description": "",
+  "description": "เครื่องมือโอเพนซอร์ซสำหรับตรวจสอบข้อความภาษาไทยเบื้องต้น",
   "main": "./lib/remark-lint-thai.js",
   "files": [
     "lib"
@@ -27,5 +27,18 @@
   "browserslist": [
     "last 1 Chrome versions"
   ],
-  "keywords": []
+  "keywords": [],
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/remark-lint-thai.git"
+  },
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtinth/remark-lint-thai/issues"
+  },
+  "homepage": "https://github.com/dtinth/remark-lint-thai#readme"
 }
