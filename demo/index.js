@@ -13,7 +13,7 @@ textarea.oninput = () => {
   localStorage.text = textarea.value
   update()
 }
-textarea.value = localStorage.text || ''
+textarea.value = localStorage.text || 'ลองสังเกตุดู'
 
 const reportElement = document.querySelector('#report')
 
