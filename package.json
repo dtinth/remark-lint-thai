@@ -20,7 +20,7 @@
   "devDependencies": {
     "expect": "^24.9.0",
     "jest": "^24.9.0",
-    "parcel-bundler": "^1.6.1",
+    "parcel-bundler": "^1.12.5",
     "remark": "11.0.1",
     "remark-cli": "^7.0.0",
     "vfile-reporter": "6.0.0"
